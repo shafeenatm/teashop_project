@@ -1,0 +1,446 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+
+.all-content {
+    background-color: #f7f6f2;
+}
+
+/* navbar  start */
+#navbar {
+    background-color: #b2744c;
+}
+
+#logo img {
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    margin-left: 40px;
+}
+
+.navbar-nav {
+    margin-left: 50px;
+}
+
+.nav-item .nav-link {
+    color: black;
+    margin-left: 10px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.nav-item .nav-link:hover {
+    background: #f7f6f2;
+    border-radius: 5px;
+    color: black;
+
+}
+
+#navbar form button {
+    background: black;
+    color: white;
+    border: 1px solid white;
+}
+
+/* navbar end */
+
+
+/* home start */
+#home {
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./img/wallpaperflare.com_wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 88%;
+}
+
+#home .content {
+    padding-top: 150px;
+    margin-left: 56px;
+}
+
+#home .content h3 {
+    font-size: 55px;
+    color: white;
+}
+
+#home .content p {
+    font-size: 15px;
+    color: white;
+}
+
+#btn {
+    width: 150px;
+    height: 36px;
+    margin-top: 20px;
+    background: white;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.55s ease;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background: #b2744c;
+    color: white;
+}
+
+/* home end */
+
+
+
+/* about section start */
+#about {
+    width: 100%;
+    height: 100vh;
+}
+
+#about .container {
+    padding-top: 70px;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 50px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.heading span {
+    color: #b2744c;
+
+}
+
+#about .card {
+    border-radius: 10px;
+}
+
+#about .card img {
+    border-radius: 10px;
+}
+
+#about-btn {
+    width: 200px;
+    height: 36px;
+    background: transparent;
+    border: 2px solid #b2744c;
+    color: #b2744c;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#about-btn:hover {
+    background-color: #b2744c;
+    color: white;
+}
+
+@media screen and(max-width:982px) {
+    #about p {
+        font: size 8px;
+    }
+}
+
+@media screen and(max-width:766px) {
+    #about p {
+        font: size 15px;
+    }
+
+    #about {
+        height: 120vh;
+    }
+}
+
+
+/* about section end */
+
+
+
+/* topcard section end */
+
+#top-cards {
+    width: 100%;
+    /* height: 60vh; */
+    background: #f7f6f2;
+}
+
+.heading2 {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.heading2 span {
+    color: #b2744c;
+}
+
+#top-cards .container {
+    margin-top: 30px;
+
+}
+
+#top-cards .card {
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#top-cards .card img {
+    border-radius: 10px;
+}
+
+#top-cards .card:hover {
+    transform: translateY(-10px);
+
+}
+
+/* topcard section end */
+
+
+
+/* menu section start*/
+
+#menu {
+    width: 100%;
+    margin-top: 60px;
+
+}
+
+.heading3 {
+    color: #b2744c;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 2px solid #b2744c;
+}
+
+#container2 {
+    margin-top: 50px;
+}
+
+#menu .card {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+.star {
+    color: #b2744c;
+}
+
+#menu h3 {
+    text-align: center;
+    color: #b2744c;
+    margin-top: 10px;
+    font-size: 25px;
+
+}
+
+#menu p {
+    color: #b2744c;
+    padding-top: 10px;
+    font-size: 16px;
+
+}
+
+#menu p span {
+    float: right;
+    cursor: pointer;
+}
+
+#menu .card img {
+    height: 200px;
+}
+
+/* menu section end */
+
+
+/* our gallery start */
+#gallery {
+    width: 100%;
+
+}
+
+.heading4 {
+    color: black;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#gallery .heading4 span {
+    color: #b2744c;
+
+}
+
+#gallery .card {
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+#gallery .card img {
+    border-radius: 10px;
+    height: 250px;
+}
+
+/* our gallery end */
+
+
+
+/* contact start */
+
+#contact {
+    width: 100%;
+    height: 100vh;
+    padding-top: 70px;
+}
+
+#contact .container {
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(90deg, white 80%, #b2744c 20%);
+    border-radius: 10px;
+
+}
+
+.heading5 {
+
+    margin-top: 70px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.heading5 span {
+
+    color: #b2744c;
+}
+
+#contact p {
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+}
+
+#contact input {
+    width: 360px;
+    border: none;
+    border-bottom: 1px solid #b2744c;
+}
+
+#contact-btn {
+    width: 200px;
+    height: 36px;
+    border: none;
+    background: #b2744c;
+    color: white;
+    margin-top: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#col {
+    width: 40%;
+    height: 56vh;
+    background: black;
+    margin-top: 78px;
+    color: white;
+
+}
+
+#contact h1 {
+    font-size: 25px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#contact #col p {
+    font-size: 15px;
+    color: white;
+    margin-top: 30px;
+    margin-left: 13px;
+}
+
+@media screen and (max-width:766px){
+    #contact .container{
+        background: white;
+    }
+
+    #col{
+        width: 100%;
+        background: #b2744c
+    }
+
+    #contact{
+        height: 130vh;
+    }
+}
+
+@media screen and (max-width:400px){
+    #contact input {
+        width: 250px;
+    }
+}
+
+/* contact end */
+
+
+
+
+/* footerstart */
+
+#footer {
+    width: 100%;
+    background: #b2744c;
+    margin-top: 50px;
+}
+
+.footer-logo img {
+    width: 180px;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#footer.social-links i {
+    font-size: 17px;
+    margin-left: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.credits {
+
+    color: white;
+    margin-top: 20px;
+    text-shadow: 0px 0px 1px black;
+
+}
+
+.credits a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.credits a span {
+    color: black;
+}
+
+.copyright span {
+    color: black;
+}
+
+/* footer end */
